@@ -170,7 +170,9 @@ header{
     display: flex;
     align-items: center;
     padding-left: 25px;
+    border-bottom: 1px solid lightgray;
 }
+
 img.avatar{
     height: 60px;
     border-radius: 50%;
@@ -183,6 +185,7 @@ img.avatar{
     position: relative;
     line-height: 6px;
 }
+
 .text-messaggi p{
     color: #b1b1b1;
     font-size: 15px;
@@ -205,8 +208,17 @@ img.avatar{
 .right-top{
     width: 100%;
     height: calc(100% - 70px);
-    background-color: #aed8e4;
+    background-image:url('https://adamap.it/wp-content/uploads/2019/12/497ed7a4365b807096b6badb0d597b4f-438x461.jpg');
     overflow-y: scroll;
+}
+
+.messaggio{
+    height: 70px;
+    width: 160px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right-bottom{
