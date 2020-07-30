@@ -7,11 +7,11 @@
 
 /** BODY **/
 body{
-    background-color: #f8ddb5;
     width: 100vw;
     height: 100vh;
     position: relative;
     overflow-y: hidden;
+    background: linear-gradient(0deg, rgba(217,219,214,1) 80%, rgba(0,151,136,1) 80%);
 }
 
 /** CONTAINER **/
@@ -80,7 +80,7 @@ header{
 }
 
 .accesso p{
-    color: #b1b1b1;
+    color: grey;
 }
 /**FINE HEADER**/
 
@@ -105,7 +105,7 @@ header{
 }
 
 .text-notifiche p{
-    color:#4a748d;
+    color: grey;
     text-decoration: underline;
 }
 
@@ -134,6 +134,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid lightgrey;
 }
 
 .container-search{
@@ -187,7 +188,7 @@ img.avatar{
 }
 
 .text-messaggi p{
-    color: #b1b1b1;
+    color: grey;
     font-size: 15px;
 }
 
@@ -196,6 +197,10 @@ img.avatar{
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.active{
+    background-color: #e9ebea;
 }
 /**FINE LEFT-BOTTOM
 /** RIGHT **/
@@ -213,7 +218,6 @@ img.avatar{
 }
 
 .ricevuto{
-    height: 65px;
     width: 160px;
     background-color: white;
     display: flex;
@@ -223,24 +227,25 @@ img.avatar{
     margin-left: 65px;
     margin-top: 10px;
     align-content: flex-end;
+    float: left;
+    clear: both;
 }
 
 .primo{
     margin-top: 35px;
 }
 
-.messaggio p{
+p{
     text-align: center;
 }
 
-.messaggio small{
+small{
     text-align: right;
     padding-right: 8px;
     color: grey;
 }
 
 .inviato{
-    height: 65px;
     width: 160px;
     background-color:#cefdb4;
     display: flex;
@@ -250,6 +255,7 @@ img.avatar{
     margin-right: 65px;
     margin-top: 10px;
     float: right;
+    clear: both;
 }
 /**FINE CHAT**/
 
@@ -277,3 +283,4 @@ img.avatar{
 }
 /**FINE INPUT **/
 
+/** TEMPLATE**/
